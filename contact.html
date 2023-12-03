@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-details {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .contact-details h1, .contact-details h2, .contact-details h3, .contact-details p {
+            margin: 10px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label, form textarea, form input {
+            margin: 10px 0;
+            width: 300px;
+        }
+
+        form textarea {
+            height: 100px;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Italian Delights - Contact Us</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Recipe Catalog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Contact Details Section -->
+        <section id="contact-details" class="contact-details">
+            <h1>Contact Us</h1>
+            <h2>Contact Numbers:</h2>
+            <p>078 164 2544 / 077 3713172</p>
+            <h2>Email:</h2>
+            <p>info@italiandelights.com</p>
+            <h2>Address:</h2>
+            <p>123 Delicious Street, Pasta City, Italy</p>
+            <h2>Feedback and Questions:</h2>
+            <p>Feel free to leave your feedback or ask any questions about specific recipes. We'd love to hear from you!</p>
+
+            <!-- Feedback Form -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; E2248304 | Uresh Fernando</p>
+    </footer>
+
+</body>
+</html>
